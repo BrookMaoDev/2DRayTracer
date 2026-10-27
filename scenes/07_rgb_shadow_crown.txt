@@ -1,0 +1,31 @@
+# RGB SHADOW CROWN: a red, a green and a blue light huddled together in the
+# centre, ringed by small white pillars and an outer crown of glass beads.
+# Each pillar blocks the three lights from slightly different angles, so it
+# casts THREE shadows - cyan, magenta and yellow - fanning outward, while the
+# glass beads focus each light into its own coloured caustic.
+# Run with dispersion 0 so the lights keep their colours.
+
+## Light:   X        Y        dX       dY       R       G       B     type
+light    0.0000  -0.4200   1.0000   0.0000  0.3333  0.0000  0.0000   0
+light    0.3637   0.2100   1.0000   0.0000  0.0000  0.3333  0.0000   0
+light   -0.3637   0.2100   1.0000   0.0000  0.0000  0.0000  0.3333   0
+
+## Circle:  X        Y      radius  ref_idx    R       G       B     type
+circle   0.9659   0.1658  0.1500   1.000   0.9000  0.9000  0.9000   1
+circle   0.6333   0.7479  0.1500   1.000   0.9000  0.9000  0.9000   1
+circle   0.0044   0.9800  0.1500   1.000   0.9000  0.9000  0.9000   1
+circle  -0.6265   0.7536  0.1500   1.000   0.9000  0.9000  0.9000   1
+circle  -0.9643   0.1745  0.1500   1.000   0.9000  0.9000  0.9000   1
+circle  -0.8509  -0.4861  0.1500   1.000   0.9000  0.9000  0.9000   1
+circle  -0.3394  -0.9194  0.1500   1.000   0.9000  0.9000  0.9000   1
+circle   0.3310  -0.9224  0.1500   1.000   0.9000  0.9000  0.9000   1
+circle   0.8465  -0.4938  0.1500   1.000   0.9000  0.9000  0.9000   1
+circle   1.3458   0.7689  0.2200   1.700   1.0000  1.0000  1.0000   2
+circle   0.5367   1.4541  0.2200   1.700   1.0000  1.0000  1.0000   2
+circle  -0.5235   1.4589  0.2200   1.700   1.0000  1.0000  1.0000   2
+circle  -1.3388   0.7811  0.2200   1.700   1.0000  1.0000  1.0000   2
+circle  -1.5277  -0.2622  0.2200   1.700   1.0000  1.0000  1.0000   2
+circle  -1.0017  -1.1828  0.2200   1.700   1.0000  1.0000  1.0000   2
+circle  -0.0070  -1.5500  0.2200   1.700   1.0000  1.0000  1.0000   2
+circle   0.9909  -1.1919  0.2200   1.700   1.0000  1.0000  1.0000   2
+circle   1.5252  -0.2761  0.2200   1.700   1.0000  1.0000  1.0000   2

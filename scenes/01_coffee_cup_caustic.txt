@@ -1,0 +1,12 @@
+# THE COFFEE CUP: a warm point light sitting just inside the rim of a giant
+# circular mirror. Every reflection off the curved wall piles up along a
+# CARDIOID (the shape you see at the bottom of a coffee mug), and higher-order
+# bounces stack nested caustics on top of it. A small diamond in the middle
+# catches the focused light. Mirrors don't split rays, so this one is cheap.
+
+## Light:   X        Y        dX       dY       R       G       B     type
+light   -1.8000   0.0000   1.0000   0.0000  1.0000  0.8600  0.6200   0
+
+## Circle:  X        Y      radius  ref_idx    R       G       B     type
+circle   0.0000   0.0000  1.9400   1.000   1.0000  1.0000  1.0000   0
+circle   0.6200   0.0000  0.1600   2.420   0.8500  0.9500  1.0000   2

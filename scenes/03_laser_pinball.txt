@@ -1,0 +1,22 @@
+# LASER PINBALL: three coloured lasers (red, green, blue) fired from
+# different corners into a chaotic cluster of glass (water, crown glass,
+# flint, diamond) and chrome balls. Every glass surface splits a beam into a
+# reflected and a refracted ray, and diamond traps light with total internal
+# reflection, so the beams fan out into a crisp, tangled web.
+# Run with dispersion 0 so the lasers keep their colours.
+
+## Light:   X        Y        dX       dY       R       G       B     type
+light   -1.9500  -1.7000   1.0000   0.6200  0.3333  0.0200  0.0300   1
+light    1.9500  -1.3500  -1.0000   0.3000  0.0200  0.3333  0.0600   1
+light   -0.2000   1.9700   0.2300  -1.0000  0.0300  0.1000  0.3333   1
+
+## Circle:  X        Y      radius  ref_idx    R       G       B     type
+circle  -0.5500  -0.3500  0.4200   2.420   0.9200  0.9700  1.0000   2
+circle   0.4500  -0.7000  0.3000   1.500   1.0000  1.0000  1.0000   2
+circle   0.3500   0.3500  0.5000   1.330   0.8500  0.9500  1.0000   2
+circle  -0.9500   0.7500  0.3300   1.650   1.0000  1.0000  1.0000   2
+circle   1.3000   0.1000  0.2200   1.000   1.0000  1.0000  1.0000   0
+circle  -1.3000  -1.1500  0.1600   1.000   1.0000  1.0000  1.0000   0
+circle   1.0500   1.2500  0.3000   1.900   1.0000  1.0000  1.0000   2
+circle  -0.2500   1.1500  0.1800   2.100   1.0000  1.0000  1.0000   2
+circle   1.2000  -1.3000  0.2000   1.500   1.0000  1.0000  1.0000   2
